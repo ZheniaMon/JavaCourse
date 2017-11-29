@@ -2,21 +2,10 @@ package ua.training;
 
 import java.util.*;
 
-public class ArrayList<E> extends AbstractList<E> {
+public class ArrayListWithoutRemove<E> extends AbstractList<E> {
 
     private Object[] array;
     private int size;
-
-    public ArrayList(int initialSize) {
-        if(initialSize < 0) {
-            throw new IllegalArgumentException("Illegal size");
-        }
-        array = new Object[initialSize];
-    }
-
-    public ArrayList() {
-        this(10);
-    }
 
     @Override
     public boolean add(E e) {
