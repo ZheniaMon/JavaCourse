@@ -1,0 +1,22 @@
+package ua.training;
+
+import java.util.*;
+
+public class Composite implements Shape {
+    private List<Shape> components = new ArrayList<>();
+
+    public void addComponent(Shape component) {
+        components.add(component);
+    }
+
+    public void removeComponent(Shape component) {
+        components.remove(component);
+    }
+
+    @Override
+    public void draw() {
+        for(Shape component : components) {
+            component.draw();
+        }
+    }
+}
