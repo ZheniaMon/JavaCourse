@@ -1,4 +1,4 @@
-package ua.training.Model.Equipment;
+package ua.training.Model.Enity.Equipment;
 
 import java.util.*;
 

@@ -10,154 +10,219 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="EquipmentDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="EquipmentDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="EquipmentDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="equipmentdb: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="EquipmentDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="equipmentdb: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="knight: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Armor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Armor.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Armor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Equipment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Equipment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Equipment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Equipment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquipmentItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding>
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="EquipmentComparator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentComparator.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/EquipmentComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java">
+      <file leaf-file-name="JDBCArmorDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCArmorDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="356">
+              <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
               <folding>
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <marker date="1512928398877" expanded="true" signature="477:692" ph="INSERT INTO armor... " />
+                <marker date="1512928398877" expanded="true" signature="1337:1589" ph="INSERT INTO armor... " />
+                <marker date="1512928398877" expanded="true" signature="2228:2258" ph="DELETE FROM armor... " />
+                <marker date="1512928398877" expanded="true" signature="2552:2584" ph="SELECT * FRO... armor" />
+                <marker date="1512928398877" expanded="true" signature="3662:3706" ph="SELECT * FRO... armor" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Knight.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCWeaponDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCWeaponDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <marker date="1512928398760" expanded="true" signature="539:741" ph="INSERT INTO notebook... " />
+                <marker date="1512928398760" expanded="true" signature="1312:1521" ph="UPDATE weapon... " />
+                <marker date="1512928398760" expanded="true" signature="2085:2116" ph="DELETE FROM weapon... " />
+                <marker date="1512928398760" expanded="true" signature="2411:2444" ph="SELECT * FRO... weapon" />
+                <marker date="1512928398760" expanded="true" signature="3535:3580" ph="SELECT * FRO... weapon" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCKnightDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCKnightDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <marker date="1512929343527" expanded="true" signature="481:567" ph="INSERT INTO knight... " />
+                <marker date="1512929343527" expanded="true" signature="938:1029" ph="UPDATE knight... " />
+                <marker date="1512929343527" expanded="true" signature="1441:1472" ph="DELETE FROM knight... " />
+                <marker date="1512929343527" expanded="true" signature="1767:1800" ph="SELECT * FRO... knight" />
+                <marker date="1512929343527" expanded="true" signature="2613:2660" ph="SELECT * FRO... notebook" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCDaoFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCDaoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCShieldDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCShieldDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <marker date="1512928398991" expanded="true" signature="483:495" ph="INSERT INTO shield... " />
+                <marker date="1512928398991" expanded="true" signature="483:705" ph="INSERT INTO shield... " />
+                <marker date="1512928398991" expanded="true" signature="1352:1611" ph="UPDATE shield... " />
+                <marker date="1512928398991" expanded="true" signature="2251:2282" ph="DELETE FROM shield... " />
+                <marker date="1512928398991" expanded="true" signature="2577:2610" ph="SELECT * FRO... shield" />
+                <marker date="1512928398991" expanded="true" signature="3695:3740" ph="SELECT * FRO... shield" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Shield.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Shield.java">
+        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Shield.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShieldForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ShieldForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,8 +233,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -181,7 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ua/training/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentItem.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ArmorProtection.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ArmorCost.java" />
@@ -191,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/ua/training/Model/Materials/ArmorMaterial.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Armor.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/WeaponType.java" />
-        <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ShieldForm.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ProtectionType.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Shield.java" />
@@ -203,6 +267,30 @@
         <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItem.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Equipment.java" />
         <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItemTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Entity/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/ProtectionType.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/ArmorDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/ShieldDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/WeaponDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/KnightDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/EquipmentItemDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCEquipmentItemDao.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/90ce6718-0a43-4dd9-a00a-4c9395491e76/console.sql" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCDaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/EquipmentItem.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Armor.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Shield.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCWeaponDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCArmorDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCShieldDao.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Knight.java" />
+        <option value="$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCKnightDao.java" />
       </list>
     </option>
   </component>
@@ -233,10 +321,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +348,7 @@
               <item name="KnightEquipmentProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KnightEquipmentProject" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +356,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Equipment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,6 +368,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -406,41 +495,44 @@
       <workItem from="1512310423068" duration="14747000" />
       <workItem from="1512392683271" duration="2252000" />
       <workItem from="1512675446229" duration="132000" />
+      <workItem from="1512902266777" duration="20712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17131000" />
+    <option name="totallyTimeSpent" value="37843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33223686" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33223686" sideWeight="0.4969743" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +546,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Armor.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Armor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
@@ -462,225 +554,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Shield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ShieldForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Equipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Equipment.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Equipment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#703#704#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Human.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Human.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Knight.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Shield.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Shield.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/EquipmentComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
@@ -715,167 +639,500 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ArmorCost.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Materials/ArmorMaterial.java" />
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Armament.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Builders/ArmorBuilders/ArmorBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItemTest.java" />
+    <entry file="uml://DATABASE/90ce6718-0a43-4dd9-a00a-4c9395491e76">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>90ce6718-0a43-4dd9-a00a-4c9395491e76</OriginalElement>
+          <nodes>
+            <node x="240.39065335753176" y="124.31941923774949">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor</node>
+            <node x="29.72323049001821" y="267.0617059891108">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype</node>
+            <node x="295.4174228675138" y="-83.59346642468242">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.equipmentitem</node>
+            <node x="449.36161524500903" y="137.70780399274048">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.weapon</node>
+            <node x="16.70099818511794" y="120.7368421052631">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.weapon" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.equipmentitem">
+              <point x="0.0" y="-48.0" />
+              <point x="544.75" y="170.0" />
+              <point x="547.8947368421052" y="170.0" />
+              <point x="58.0" y="70.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.equipmentitem">
+              <point x="45.25" y="-59.0" />
+              <point x="183.5" y="170.0" />
+              <point x="236.04718693284937" y="104.31941923774954" />
+              <point x="-58.0" y="70.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype">
+              <point x="-45.75" y="-59.0" />
+              <point x="213.29491833030852" y="179.1070780399274" />
+              <point x="208.80580762250455" y="186.2722323049002" />
+              <point x="58.5" y="37.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.equipmentitem">
+              <point x="45.75" y="-59.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype">
+              <point x="-45.25" y="-59.0" />
+              <point x="-58.5" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.837386018237082" x="276.6061705989111" y="168.6061705989111" />
+          <SelectedNodes>
+            <node>90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.equipmentitem</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ProtectionType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ArmorType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/WeaponType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/ShieldForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Shield.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/EquipmentTypes/WeaponType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.protectiontype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Human.java">
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.armor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.shield">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/ProtectionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Builders/ArmorBuilders/ArmorBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Knight/Knight.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/ShieldDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/WeaponDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/KnightDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/EquipmentItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.knight">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.weapon">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/589d21f3/90ce6718-0a43-4dd9-a00a-4c9395491e76/equipmentdb.equipmentitem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/90ce6718-0a43-4dd9-a00a-4c9395491e76.SCHEMA:equipmentdb">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>90ce6718-0a43-4dd9-a00a-4c9395491e76.SCHEMA:equipmentdb</OriginalElement>
+          <nodes>
+            <node x="451.75" y="157.0">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.weapon</node>
+            <node x="34.5" y="-7.076225045372055">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype</node>
+            <node x="248.75" y="146.0">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor</node>
+            <node x="327.7422867513612" y="-28.92196007259528">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.knight</node>
+            <node x="41.72459165154265" y="147.20508166969145">90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype">
+              <point x="-45.75" y="-103.0" />
+              <point x="294.5" y="116.0" />
+              <point x="210.0" y="116.0" />
+              <point x="58.5" y="37.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.weapon" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.knight">
+              <point x="0.0" y="-92.0" />
+              <point x="547.75" y="126.0" />
+              <point x="447.33333333333337" y="126.0" />
+              <point x="61.33333333333337" y="48.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.protectiontype">
+              <point x="-45.25" y="-103.0" />
+              <point x="-58.5" y="37.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.armor" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.knight">
+              <point x="45.75" y="-103.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.shield" target="90ce6718-0a43-4dd9-a00a-4c9395491e76.TABLE:equipmentdb.knight">
+              <point x="45.25" y="-103.0" />
+              <point x="183.5" y="126.0" />
+              <point x="324.66666666666663" y="126.0" />
+              <point x="-61.33333333333334" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8298192771084337" x="279.21960072595283" y="251.92014519056264" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/90ce6718-0a43-4dd9-a00a-4c9395491e76/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCEquipmentItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/DaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/ArmorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/EquipmentItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/EquipmentComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Equipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Shield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Equipment/Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCWeaponDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <marker date="1512928398760" expanded="true" signature="539:741" ph="INSERT INTO notebook... " />
+            <marker date="1512928398760" expanded="true" signature="1312:1521" ph="UPDATE weapon... " />
+            <marker date="1512928398760" expanded="true" signature="2085:2116" ph="DELETE FROM weapon... " />
+            <marker date="1512928398760" expanded="true" signature="2411:2444" ph="SELECT * FRO... weapon" />
+            <marker date="1512928398760" expanded="true" signature="3535:3580" ph="SELECT * FRO... weapon" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Armor.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Enity/Knight/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="170">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCShieldDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="117" column="14" lean-forward="false" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <marker date="1512928398991" expanded="true" signature="483:495" ph="INSERT INTO shield... " />
+            <marker date="1512928398991" expanded="true" signature="483:705" ph="INSERT INTO shield... " />
+            <marker date="1512928398991" expanded="true" signature="1352:1611" ph="UPDATE shield... " />
+            <marker date="1512928398991" expanded="true" signature="2251:2282" ph="DELETE FROM shield... " />
+            <marker date="1512928398991" expanded="true" signature="2577:2610" ph="SELECT * FRO... shield" />
+            <marker date="1512928398991" expanded="true" signature="3695:3740" ph="SELECT * FRO... shield" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCDaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItemTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentItem.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCArmorDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="356">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
           <folding>
-            <element signature="e#308#309#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
+            <marker date="1512928398877" expanded="true" signature="477:692" ph="INSERT INTO armor... " />
+            <marker date="1512928398877" expanded="true" signature="1337:1589" ph="INSERT INTO armor... " />
+            <marker date="1512928398877" expanded="true" signature="2228:2258" ph="DELETE FROM armor... " />
+            <marker date="1512928398877" expanded="true" signature="2552:2584" ph="SELECT * FRO... armor" />
+            <marker date="1512928398877" expanded="true" signature="3662:3706" ph="SELECT * FRO... armor" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/EquipmentComparator.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Dao/Imp/JDBCKnightDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/training/Model/Equipment/Equipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <marker date="1512929343527" expanded="true" signature="481:567" ph="INSERT INTO knight... " />
+            <marker date="1512929343527" expanded="true" signature="938:1029" ph="UPDATE knight... " />
+            <marker date="1512929343527" expanded="true" signature="1441:1472" ph="DELETE FROM knight... " />
+            <marker date="1512929343527" expanded="true" signature="1767:1800" ph="SELECT * FRO... knight" />
+            <marker date="1512929343527" expanded="true" signature="2613:2660" ph="SELECT * FRO... notebook" />
           </folding>
         </state>
       </provider>
