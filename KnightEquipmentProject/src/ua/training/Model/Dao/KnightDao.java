@@ -1,6 +1,6 @@
-package ua.training.Model.Dao;
+package ua.training.model.dao;
 
-import ua.training.Model.Enity.Knight.Knight;
+import ua.training.model.enity.Knight;
 
 public interface KnightDao extends GenericDao<Knight> {
 }

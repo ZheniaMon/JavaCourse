@@ -1,14 +1,15 @@
-package ua.training.Main;
+package ua.training.main;
 
-import ua.training.Model.Dao.DaoFactory;
-import ua.training.Model.Dao.WeaponDao;
+import ua.training.controller.Controller;
+import ua.training.model.Model;
+import ua.training.view.View;
 
 public class Main {
     public static void main(String[] args) {
-        DaoFactory daoFactory = DaoFactory.getInstance();
-        WeaponDao weaponDao = daoFactory.createWeaponDao();
-
-
+        Model model = new Model();
+        View view = new View();
+        Controller controller = new Controller(model, view);
+        controller.processUser();
     }
 }
 

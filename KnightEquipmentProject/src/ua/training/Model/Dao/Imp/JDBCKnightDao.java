@@ -1,10 +1,11 @@
-package ua.training.Model.Dao.Imp;
+package ua.training.model.dao.imp;
 
-import ua.training.Model.Dao.KnightDao;
-import ua.training.Model.Enity.Knight.Knight;
-
+import ua.training.model.dao.KnightDao;
+import ua.training.model.enity.Knight;
+import static ua.training.model.constants.DaoConstants.*;
 import java.sql.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class JDBCKnightDao implements KnightDao {
 
@@ -17,8 +18,7 @@ public class JDBCKnightDao implements KnightDao {
     @Override
     public void create(Knight entity) {
         try (PreparedStatement ps = connection.prepareStatement
-                ("INSERT INTO knight (knightName, knightAge)" +
-                        " VALUES (? ,? )")){
+                (CREATE_KNIGHT)){
             ps.setString(1 , entity.getKnightName());
             ps.setInt(2 ,entity.getKnightAge());
             ps.executeUpdate();
@@ -30,8 +30,7 @@ public class JDBCKnightDao implements KnightDao {
     @Override
     public void update(Knight entity) {
         try (PreparedStatement ps = connection.prepareStatement(
-                "UPDATE knight SET knightName = ? , knightAge = ?  " +
-                        "WHERE id = ?")){
+                UPDATE_KNIGHT)){
             ps.setString(1 , entity.getKnightName());
             ps.setInt(2 ,entity.getKnightAge());
             ps.setInt(3, entity.getKnightId());
@@ -44,7 +43,7 @@ public class JDBCKnightDao implements KnightDao {
     @Override
     public void delete(int id) {
         try (PreparedStatement ps = connection.prepareStatement(
-                "DELETE FROM knight WHERE id = ?")){
+                DELETE_KNIGHT)){
             ps.setInt(1, id);
             ps.executeUpdate();
         } catch (SQLException e) {
@@ -55,7 +54,7 @@ public class JDBCKnightDao implements KnightDao {
     @Override
     public Knight findById(int id) {
         try (PreparedStatement ps = connection.prepareStatement
-                ("SELECT * FROM knight WHERE id = ?")){
+                (FIND_KNIGHT_BY_ID)){
             ps.setInt(1,id);
             ResultSet rs = ps.executeQuery();
             if( rs.next() ){
@@ -73,6 +72,7 @@ public class JDBCKnightDao implements KnightDao {
         result.setKnightId(rs.getInt("knightId") );
         result.setKnightName(rs.getString("knightName"));
         result.setKnightAge(rs.getInt("knightAge"));
+        result.setEquipment(new JDBCItemDao(connection).findAllByKnightId(rs.getInt("knightId")));
         return result;
     }
 
@@ -80,8 +80,7 @@ public class JDBCKnightDao implements KnightDao {
     public List<Knight> findAll() {
         List<Knight> resultList = new ArrayList<>();
         try (Statement ps = connection.createStatement()){
-            ResultSet rs = ps.executeQuery("SELECT * " +
-                    "FROM notebook");
+            ResultSet rs = ps.executeQuery(FIND_ALL_KNIGHTS);
 
             while ( rs.next() ){
                 Knight result = extractFromResultSet(rs);

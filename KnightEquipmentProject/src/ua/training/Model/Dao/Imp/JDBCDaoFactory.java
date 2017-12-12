@@ -1,23 +1,17 @@
-package ua.training.Model.Dao.Imp;
+package ua.training.model.dao.imp;
 
-import ua.training.Model.Dao.*;
+import ua.training.model.dao.*;
+import static ua.training.model.constants.DaoConstants.*;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class JDBCDaoFactory extends DaoFactory {
-    @Override
-    public ArmorDao createArmorDao() {
-        return new JDBCArmorDao(getConnection());
-    }
 
     @Override
-    public ShieldDao createShieldDao() {
-        return new JDBCShieldDao(getConnection());
-    }
-
-    @Override
-    public WeaponDao createWeaponDao() {
-        return new JDBCWeaponDao(getConnection());
+    public ItemDao createEquipmentDao() {
+        return new JDBCItemDao(getConnection());
     }
 
     @Override
@@ -27,12 +21,15 @@ public class JDBCDaoFactory extends DaoFactory {
 
     private Connection getConnection() {
         try {
+            //Class.forName("com.mysql.jdbc.Driver");
             return DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/EquipmentDB",
-                    "root" ,
-                    "Base4171Sq6Roo7" );
+                    CONNECTION_STRING,
+                    USER ,
+                    PASSWORD );
         } catch (SQLException e) {
             throw new RuntimeException(e);
-        }
+        } /*catch (ClassNotFoundException c) {
+            throw new RuntimeException(c);
+        }*/
     }
 }
