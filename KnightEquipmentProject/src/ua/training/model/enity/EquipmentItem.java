@@ -1,8 +1,16 @@
 package ua.training.model.enity;
 
-import java.util.ResourceBundle;
-
-import static ua.training.model.constants.ItemStrings.*;
+/**
+ * класс элемента экипировки,
+ * содержит свойства
+ *  <b>код эелемента</b>
+ *  <b>название</b>
+ *  <b>стоимость</b>
+ *  <b>вес</b>
+ *  <b>размер</b>
+ *  <b>код рыцаря</b>
+ *  <b>тип</b>
+ */
 
 public class EquipmentItem {
     private int itemId;

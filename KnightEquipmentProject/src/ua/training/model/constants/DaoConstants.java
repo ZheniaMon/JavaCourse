@@ -1,5 +1,9 @@
 package ua.training.model.constants;
 
+/**
+ * интерфейс содержиит константы sql команд
+ */
+
 public interface DaoConstants {
     String CONNECTION_STRING = "jdbc:mysql://localhost:3306/EquipmentDB?autoReconnect=true&useSSL=false";
     String USER = "root";

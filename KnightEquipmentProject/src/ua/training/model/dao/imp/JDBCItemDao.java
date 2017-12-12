@@ -8,6 +8,9 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * класс для работы с таблицей элементов экипировки
+ */
 public class JDBCItemDao implements ItemDao {
     private Connection connection;
 
@@ -15,6 +18,10 @@ public class JDBCItemDao implements ItemDao {
         this.connection = connection;
     }
 
+    /**
+     * метод создает запись в таблице
+     * @param entity запись которю нужно создать
+     */
     @Override
     public void create(EquipmentItem entity) {
         try (PreparedStatement ps = connection.prepareStatement
@@ -31,6 +38,10 @@ public class JDBCItemDao implements ItemDao {
         }
     }
 
+    /**
+     * метод изменения записи в табл
+     * @param entity новая запись
+     */
     @Override
     public void update(EquipmentItem entity) {
         try (PreparedStatement ps = connection.prepareStatement(
@@ -48,6 +59,10 @@ public class JDBCItemDao implements ItemDao {
         }
     }
 
+    /**
+     * метод удаления записи по ид
+     * @param id ид записи
+     */
     @Override
     public void delete(int id) {
         try (PreparedStatement ps = connection.prepareStatement(
@@ -59,6 +74,11 @@ public class JDBCItemDao implements ItemDao {
         }
     }
 
+    /**
+     * метод находить запись по ид
+     * @param id ид записи
+     * @return найденную запись
+     */
     @Override
     public EquipmentItem findById(int id) {
         try (PreparedStatement ps = connection.prepareStatement
@@ -87,6 +107,10 @@ public class JDBCItemDao implements ItemDao {
         return result;
     }
 
+    /**
+     * метод находит все записи таблицы
+     * @return список записей
+     */
     @Override
     public List<EquipmentItem> findAll() {
         List<EquipmentItem> resultList = new ArrayList<>();
@@ -102,6 +126,12 @@ public class JDBCItemDao implements ItemDao {
         return resultList;
     }
 
+    /**
+     * метод находит все записи таблицы по ид рыцаря
+     * @param id ид рыцаря
+     * @return список записей
+     */
+    @Override
     public List<EquipmentItem> findAllByKnightId(int id) {
         List<EquipmentItem> resultList = new ArrayList<>();
         try (PreparedStatement ps = connection.prepareStatement(FIND_ALL_ITEMS_BY_KNIGHT_ID)){
@@ -112,6 +142,8 @@ public class JDBCItemDao implements ItemDao {
                 resultList.add(result);
             }
         } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } catch (NullPointerException e) {
             throw new RuntimeException(e);
         }
         return resultList;

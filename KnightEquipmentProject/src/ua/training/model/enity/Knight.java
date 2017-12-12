@@ -1,7 +1,14 @@
 package ua.training.model.enity;
 
 import java.util.List;
-import static ua.training.model.constants.KnightStrings.*;
+
+/**
+ * Класс рыцаря со свойствами
+ * <b>код рыцаря</b>
+ * <b>имя</b>
+ * <b>возраст</b>
+ * <b>экипировка</b>
+ */
 
 public class Knight {
     private int knightId;

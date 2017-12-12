@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 import static ua.training.model.constants.ViewConstants.*;
 
+/**
+ * класс содержит методы считывания данных
+ */
+
 public class InputController {
     private View view;
     private Scanner scanner;
@@ -27,6 +31,12 @@ public class InputController {
     public int chooseKnight() {
         view.println(NEW_LINE);
         view.println(view.getBundle().getString(SELECT_KNIGHT));
+        view.println(USER_INPUT);
+        return inputIntValueWithScanner(scanner);
+    }
+
+    public int getIntRange() {
+        view.println(NEW_LINE);
         view.println(USER_INPUT);
         return inputIntValueWithScanner(scanner);
     }

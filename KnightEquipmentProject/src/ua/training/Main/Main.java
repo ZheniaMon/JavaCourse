@@ -4,6 +4,9 @@ import ua.training.controller.Controller;
 import ua.training.model.Model;
 import ua.training.view.View;
 
+/**
+ * клаас запуска приложения
+ */
 public class Main {
     public static void main(String[] args) {
         Model model = new Model();

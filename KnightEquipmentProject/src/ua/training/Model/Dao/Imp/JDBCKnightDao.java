@@ -7,6 +7,10 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * класс для работы с таблицей рыцарей
+ */
+
 public class JDBCKnightDao implements KnightDao {
 
     private Connection connection;
@@ -15,6 +19,10 @@ public class JDBCKnightDao implements KnightDao {
         this.connection = connection;
     }
 
+    /**
+     * метод создает запись в таблице
+     * @param entity запись которю нужно создать
+     */
     @Override
     public void create(Knight entity) {
         try (PreparedStatement ps = connection.prepareStatement
@@ -27,6 +35,10 @@ public class JDBCKnightDao implements KnightDao {
         }
     }
 
+    /**
+     * метод изменения записи в табл
+     * @param entity новая запись
+     */
     @Override
     public void update(Knight entity) {
         try (PreparedStatement ps = connection.prepareStatement(
@@ -40,6 +52,10 @@ public class JDBCKnightDao implements KnightDao {
         }
     }
 
+    /**
+     * метод удаления записи по ид
+     * @param id ид записи
+     */
     @Override
     public void delete(int id) {
         try (PreparedStatement ps = connection.prepareStatement(
@@ -51,6 +67,11 @@ public class JDBCKnightDao implements KnightDao {
         }
     }
 
+    /**
+     * метод находить запись по ид
+     * @param id ид записи
+     * @return найденную запись
+     */
     @Override
     public Knight findById(int id) {
         try (PreparedStatement ps = connection.prepareStatement
@@ -76,6 +97,10 @@ public class JDBCKnightDao implements KnightDao {
         return result;
     }
 
+    /**
+     * метод находит все записи таблицы
+     * @return список записей
+     */
     @Override
     public List<Knight> findAll() {
         List<Knight> resultList = new ArrayList<>();
